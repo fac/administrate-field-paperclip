@@ -15,12 +15,12 @@ Gem::Specification.new do |gem|
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split('\n')
 
   gem.add_dependency 'administrate', '~> 0.4'
-  gem.add_dependency 'rails', '>= 4.2', '< 6'
+  gem.add_dependency 'rails', '>= 4.2'
 
   gem.add_development_dependency 'byebug'
   gem.add_development_dependency 'factory_girl'
   gem.add_development_dependency 'fog'
-  gem.add_development_dependency 'paperclip'
+  gem.add_development_dependency 'kt-paperclip'
   gem.add_development_dependency 'sqlite3'
   gem.add_development_dependency 'coveralls'
   gem.add_development_dependency 'rspec', '~> 3.5'

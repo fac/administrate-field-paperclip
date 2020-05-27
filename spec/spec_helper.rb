@@ -5,7 +5,7 @@ SimpleCov.start
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'administrate/field/paperclip'
 # config Paperclip for testing purposes
-require 'paperclip'
+require 'kt-paperclip'
 require 'fog'
 Paperclip::Attachment.default_options[:storage] = :fog
 Paperclip::Attachment.default_options[:fog_credentials] = {
